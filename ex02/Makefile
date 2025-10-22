@@ -23,10 +23,10 @@ $(OBJ_DIR):
 	mkdir -p $(OBJ_DIR)
 
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) home_shrubbery
 
 fclean: clean
-	rm -f $(NAME)
+	rm -f $(NAME) 
 
 re: fclean all
 
